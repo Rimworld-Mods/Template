@@ -15,7 +15,8 @@
 	</PropertyGroup>
 
  	<ItemGroup>
-	 	<Reference Include="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\*.dll">
+	 <!-- C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\*.dll -->
+	 	<Reference Include="..\..\..\..\RimWorldWin64_Data\Managed\*.dll">
 			<Private>False</Private>
 		</Reference>
 	</ItemGroup>

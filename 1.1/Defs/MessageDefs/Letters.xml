@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<LetterDef>
+		<defName>success_letter</defName>
+		<color>(65, 200, 65)</color>
+		<flashColor>(85, 255, 85)</flashColor>
+		<flashInterval>6</flashInterval>
+		<bounce>false</bounce>
+		<arriveSound>LetterArrive_Good</arriveSound>
+		<description>If you can see this letter, then mod template is set up correctly.</description>
+	</LetterDef>
+</Defs>

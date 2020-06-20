@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net472</TargetFramework>
+
+		<RootNamespace>Asthma.Gun</RootNamespace>
+		<AssemblyName>Template</AssemblyName>
+
+		<OutputPath>..\Assemblies\</OutputPath>
+		<PlatformTarget>x64</PlatformTarget>
+
+		<DebugType>none</DebugType>
+		<DebugSymbols>false</DebugSymbols>
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+	</PropertyGroup>
+
+ 	<ItemGroup>
+	 	<Reference Include="C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\*.dll">
+			<Private>False</Private>
+		</Reference>
+	</ItemGroup>
+</Project>

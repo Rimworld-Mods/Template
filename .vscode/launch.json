@@ -1,0 +1,19 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Rimworld Mod Project",
+            "type": "clr",
+            "request": "launch",
+            "preLaunchTask": "build dll",
+            "args": [],
+            "program": "C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64.exe",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "stopAtEntry": true
+        },
+    ]
+}

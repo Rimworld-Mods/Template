@@ -1,0 +1,14 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build dll",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": "dotnet build 1.1/Source \n del 1.1/Source\\obj -r",
+        },
+    ]
+}

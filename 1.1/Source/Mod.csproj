@@ -3,7 +3,7 @@
 		<OutputType>Library</OutputType>
 		<TargetFramework>net472</TargetFramework>
 
-		<RootNamespace>Asthma.Gun</RootNamespace>
+		<RootNamespace>Template</RootNamespace>
 		<AssemblyName>Template</AssemblyName>
 
 		<OutputPath>..\Assemblies\</OutputPath>

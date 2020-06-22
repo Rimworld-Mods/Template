@@ -8,7 +8,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "command": "dotnet build 1.1/Source \n del 1.1/Source\\obj -r",
+            "command": "dotnet build Source \n del Source/obj -r",
         },
     ]
 }

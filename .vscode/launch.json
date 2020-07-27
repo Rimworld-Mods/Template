@@ -10,8 +10,6 @@
             "request": "launch",
             "preLaunchTask": "build dll",
             "args": [],
-            // [Windows] C:/Program Files (x86)/Steam/steamapps/common/RimWorld/RimWorldWin64.exe
-            // [Linux]
             "program": "../../RimWorldWin64.exe", 
             "cwd": "${workspaceFolder}",
             "console": "internalConsole",

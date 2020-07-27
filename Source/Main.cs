@@ -1,28 +1,24 @@
-﻿// ----------------------------------------------------------------------
-// These are basic usings. Always let them be here.
-// ----------------------------------------------------------------------
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
 
-// ----------------------------------------------------------------------
-// These are RimWorld-specific usings. Activate/Deactivate what you need:
-// ----------------------------------------------------------------------
-using UnityEngine;         // Always needed
-using Verse;               // RimWorld universal objects are here (like 'Building')
-using Verse.AI;            // Needed when you do something with the AI
+using UnityEngine;
+using Verse;
+using Verse.AI;
 using Verse.AI.Group;
-using Verse.Sound;         // Needed when you do something with Sound
-using Verse.Noise;         // Needed when you do something with Noises
-using RimWorld;            // RimWorld specific functions are found here (like 'Building_Battery')
-using RimWorld.Planet;     // RimWorld specific functions for world creation
+using Verse.Sound;
+using Verse.Noise;
+using Verse.Grammar;
+using RimWorld;
+using RimWorld.Planet;
 
+//using System.Reflection;
+//using HarmonyLib;
 
 namespace Template
 {
-
     [DefOf]
     public class TemplateDefOf
     {
@@ -31,14 +27,14 @@ namespace Template
 
     public class MyMapComponent : MapComponent
     {
-		public MyMapComponent(Map map) : base(map)
+        public MyMapComponent(Map map) : base(map)
         {
-		}
+        }
 
-        public  override  void FinalizeInit()
-		{
+        public override void FinalizeInit()
+        {
             Messages.Message("Success", null, MessageTypeDefOf.PositiveEvent);
-            Find.LetterStack.ReceiveLetter("Success", TemplateDefOf.success_letter.description, TemplateDefOf.success_letter, null);  
-		}
+            Find.LetterStack.ReceiveLetter("Success", TemplateDefOf.success_letter.description, TemplateDefOf.success_letter, null);
+        }
     }
 }

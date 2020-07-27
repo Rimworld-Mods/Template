@@ -4,7 +4,7 @@
 		<TargetFramework>net472</TargetFramework>
 		<PlatformTarget>x64</PlatformTarget>
 
-		<!-- Modify these 3 variables to your needs -->
+		<!-- Modify [RootNamespace], [AssemblyName], [OutputPath] according to your needs -->
 		<RootNamespace>Template</RootNamespace>
 		<AssemblyName>Template</AssemblyName>
 		<OutputPath>../1.1/Assemblies</OutputPath>
@@ -15,10 +15,13 @@
 	</PropertyGroup>
 
  	<ItemGroup>
-	 	<!-- [Windows]  C:\Program Files (x86)\Steam\steamapps\common\RimWorld\RimWorldWin64_Data\Managed\*.dll -->
-		<!-- [Linux]  -->
 	 	<Reference Include="../../../RimWorldWin64_Data/Managed/*.dll">
 			<Private>False</Private>
 		</Reference>
+		<!-- HARMONY!
+		<Reference Include="../../Harmony/v1.1/Assemblies/0Harmony.dll">
+			<Private>False</Private>
+		</Reference>
+		-->
 	</ItemGroup>
 </Project>

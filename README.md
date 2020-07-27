@@ -1,6 +1,6 @@
-# Rimworld mod template
+# Rimworld Mod Template
 
-This template is created for Rimworld modders who don't want to use Visual Studio Code Community IDE.
+This template is created for Rimworld moders who don't want to use Visual Studio Code Community IDE.
 
 ### Why Visual Studio Code?
 

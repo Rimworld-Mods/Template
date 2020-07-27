@@ -8,7 +8,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "command": "dotnet build Source \n del Source/obj -r",
+            "command": ".\\.vscode\\build.bat",
         },
     ]
 }

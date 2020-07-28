@@ -4,22 +4,26 @@
 		<TargetFramework>net472</TargetFramework>
 		<PlatformTarget>x64</PlatformTarget>
 
-		<!-- Modify [RootNamespace], [AssemblyName], [OutputPath] according to your needs -->
+		<!-- Modify [RootNamespace], [AssemblyName], [OutputPath], [VersionPrefix] according to your needs -->
 		<RootNamespace>Template</RootNamespace>
 		<AssemblyName>Template</AssemblyName>
 		<OutputPath>../1.1/Assemblies</OutputPath>
+		<VersionPrefix>1.0.0.0</VersionPrefix>
 
 		<DebugType>none</DebugType>
 		<DebugSymbols>false</DebugSymbols>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
-		<GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+		<IntermediateOutputPath>../.vscode/obj</IntermediateOutputPath>
 	</PropertyGroup>
 
  	<ItemGroup>
+	 	<!-- Rimworld -->
 	 	<Reference Include="../../../RimWorldWin64_Data/Managed/*.dll">
 			<Private>False</Private>
 		</Reference>
-		<!-- HARMONY!
+
+		<!-- Harmony -->
+		<!--
 		<Reference Include="../../Harmony/v1.1/Assemblies/0Harmony.dll">
 			<Private>False</Private>
 		</Reference>

@@ -1,2 +1,5 @@
 /Source/obj
-/*/Assemblies
+/.vscode/obj
+
+# /*/Assemblies
+# /Source

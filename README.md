@@ -1,6 +1,6 @@
 # Rimworld Mod Template
 
-This template is created for Rimworld moders who use [Visual Studio Code](https://code.visualstudio.com/) instead od Visual Studio IDE.
+This template is created for Rimworld moders who use [Visual Studio Code](https://code.visualstudio.com/) instead of Visual Studio IDE.
 
 * __No virtual folders__. Easy to manage and edit both `xml` and `cs` files.
 

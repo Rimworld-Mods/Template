@@ -25,6 +25,15 @@ namespace Template
         public static LetterDef success_letter;
     }
 
+    [StaticConstructorOnStartup]
+    public static class Start
+    {
+        static Start()
+        {
+            Log.Message("Mod template: success");
+        }
+    }
+
     public class MyMapComponent : MapComponent
     {
         public MyMapComponent(Map map) : base(map)

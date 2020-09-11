@@ -3,8 +3,8 @@
 	<name>Arvkus Mod Template</name>
 	<author>Arvkus</author>
 	<supportedVersions>
-		<li>1.1</li>
+		<li>1.2</li>
 	</supportedVersions>
-	<packageId>Arvkus.Rimworld.ModTemplate</packageId>
+	<packageId>Arvkus.Rimworld.ModTemplate2</packageId>
 	<description>Template</description>
 </ModMetaData>

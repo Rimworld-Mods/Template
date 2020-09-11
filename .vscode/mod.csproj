@@ -7,10 +7,12 @@
 		<!-- Modify [RootNamespace], [AssemblyName], [OutputPath], [VersionPrefix] -->
 		<RootNamespace>Template</RootNamespace>
 		<AssemblyName>Template</AssemblyName>
-		<OutputPath>../1.1/Assemblies</OutputPath>
+		<OutputPath>../1.2/Assemblies</OutputPath>
 		<VersionPrefix>1.0.0.0</VersionPrefix>
 
+		<!-- pdb file generation -->
 		<DebugType>none</DebugType>
+
 		<DebugSymbols>false</DebugSymbols>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
 	</PropertyGroup>
@@ -25,10 +27,8 @@
 		</Reference>
 
 		<!-- Harmony -->
-		<!--
-		<Reference Include="../../Harmony/v1.1/Assemblies/0Harmony.dll">
+		<!-- <Reference Include="../../Harmony/v1.1/Assemblies/0Harmony.dll">
 			<Private>False</Private>
-		</Reference>
-		-->
+		</Reference> -->
 	</ItemGroup>
 </Project>

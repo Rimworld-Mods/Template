@@ -25,25 +25,23 @@ namespace Template
         public static LetterDef success_letter;
     }
 
-    [StaticConstructorOnStartup]
-    public static class Start
-    {
-        static Start()
-        {
-            Log.Message("Mod template: success");
-        }
-    }
-
     public class MyMapComponent : MapComponent
     {
-        public MyMapComponent(Map map) : base(map)
-        {
-        }
-
+        public MyMapComponent(Map map) : base(map){}
         public override void FinalizeInit()
         {
             Messages.Message("Success", null, MessageTypeDefOf.PositiveEvent);
             Find.LetterStack.ReceiveLetter("Success", TemplateDefOf.success_letter.description, TemplateDefOf.success_letter, null);
         }
     }
+
+    [StaticConstructorOnStartup]
+    public static class Start
+    {
+        static Start() // quick debug
+        {
+            Log.Message("Mod init");
+        }
+    }
+
 }

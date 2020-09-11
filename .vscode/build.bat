@@ -1,7 +1,7 @@
 echo off
 
 REM remove unnecessary assemblies
-REM DEL .\*\Assemblies\*.*
+DEL .\*\Assemblies\*.*
 
 REM build dll
 dotnet build .vscode

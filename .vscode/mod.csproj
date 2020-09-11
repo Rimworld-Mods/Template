@@ -10,7 +10,7 @@
 		<OutputPath>../1.2/Assemblies</OutputPath>
 		<VersionPrefix>1.0.0.0</VersionPrefix>
 
-		<!-- pdb file generation -->
+		<!-- do not generate pdb file -->
 		<DebugType>none</DebugType>
 
 		<DebugSymbols>false</DebugSymbols>
@@ -19,7 +19,7 @@
 
  	<ItemGroup>
 	 	<!-- Mod -->
-	 	<CodeFiles Include="../Source/*" />
+	 	<Compile Include="../Source/*" />
 		
 	 	<!-- Rimworld -->
 	 	<Reference Include="../../../RimWorldWin64_Data/Managed/*.dll">

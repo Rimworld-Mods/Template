@@ -38,9 +38,9 @@ namespace Template
     [StaticConstructorOnStartup]
     public static class Start
     {
-        static Start() // quick debug
+        static Start()
         {
-            Log.Message("Mod init");
+            Log.Message("Mod template loaded successfully!");
         }
     }
 

@@ -8,8 +8,8 @@
                 "kind": "build",
                 "isDefault": true
             },
-            // "command": ".vscode/build.bat",
-            "command": "dotnet build .vscode"
+            "command": ".vscode/build.bat",
+            // "command": "dotnet build .vscode"
         },
     ]
 }

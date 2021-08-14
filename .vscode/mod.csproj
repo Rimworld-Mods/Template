@@ -7,7 +7,7 @@
 		<!-- Modify [RootNamespace], [AssemblyName], [OutputPath], [VersionPrefix] -->
 		<RootNamespace>Template</RootNamespace>
 		<AssemblyName>Template</AssemblyName>
-		<OutputPath>../1.2/Assemblies</OutputPath>
+		<OutputPath>../1.3/Assemblies</OutputPath>
 		<VersionPrefix>1.0.0.0</VersionPrefix>
 
 		<!-- do not generate pdb file -->

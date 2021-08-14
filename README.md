@@ -16,6 +16,7 @@ This template is created for Rimworld modders who use [Visual Studio Code](https
 3. Clone, pull or download this template into your Rimworld `Mods` folder.
 
 ## Additional notes
+* For XML only modders remove preLaunchTask line from `launch.json` file.
 * By pressing `F5` key VS Code will perform 2 operations: build assembly file and launch Rimworld executable. 
 * All intermediate files are kept inside `.vscode` folder.
 * Modify `.vscode/mod.csproj` and `About/About.xml` according to your needs.

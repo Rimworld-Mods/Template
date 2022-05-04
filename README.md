@@ -11,7 +11,7 @@ This template is created for Rimworld modders who use [Visual Studio Code](https
 * __Customizable__. Almost every feature can be changed, whenever it is editor UI, keybinds or folder structure.
 
 ## Setup
-1. Download and install [.NET Core SDK](https://dotnet.microsoft.com/download/dotnet-core) and [.Net Framework 4.7.2 Developer Pack]( https://dotnet.microsoft.com/download/dotnet-framework/net472). This step can be skipped if you already have required C# packages from Visual Studio IDE.
+1. Download and install [.NET Core SDK](https://dotnet.microsoft.com/download/dotnet-core) and [.Net Framework 4.8 Developer Pack](https://dotnet.microsoft.com/download/dotnet-framework/net48). This step can be skipped if you already have required C# packages from Visual Studio IDE.
 2. Install [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp).
 3. Clone, pull or download this template into your Rimworld `Mods` folder.
 

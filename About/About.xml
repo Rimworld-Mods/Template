@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-	<packageId>onoira.template</packageId>
-	<name>onoira Mod Template</name>
-	<author>onoira</author>
+	<packageId>username.modname</packageId>
+	<name>Mod Template</name>
+	<author>username</author>
 	<supportedVersions>
 		<li>1.4</li>
 	</supportedVersions>
@@ -17,7 +17,7 @@
 	</modDependencies>
 
 	<incompatibleWith>
-		<!-- <li>onoira.template</li> -->
+		<!-- <li>username.modname</li> -->
 	</incompatibleWith>
 
 	<description>Template</description>

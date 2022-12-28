@@ -7,8 +7,8 @@
 		<!-- Modify [RootNamespace], [AssemblyName], [OutputPath], [VersionPrefix] -->
 		<RootNamespace>Template</RootNamespace>
 		<AssemblyName>Template</AssemblyName>
-		<OutputPath>../1.3/Assemblies</OutputPath>
-		<VersionPrefix>1.0.0.0</VersionPrefix>
+		<OutputPath>../1.4/Assemblies</OutputPath>
+		<VersionPrefix>0.1.0.0</VersionPrefix>
 
 		<!-- do not generate pdb file -->
 		<DebugType>none</DebugType>
@@ -27,7 +27,7 @@
 		</Reference>
 
 		<!-- Harmony -->
-		<!-- <Reference Include="../../Harmony/v1.1/Assemblies/0Harmony.dll">
+		<!-- <Reference Include="../../Harmony/Current/Assemblies/0Harmony.dll">
 			<Private>False</Private>
 		</Reference> -->
 	</ItemGroup>

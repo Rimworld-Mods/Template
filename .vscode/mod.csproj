@@ -7,10 +7,10 @@
 		<!-- Modify [RootNamespace], [AssemblyName], [OutputPath], [VersionPrefix] -->
 		<RootNamespace>Template</RootNamespace>
 		<AssemblyName>Template</AssemblyName>
-		<OutputPath>../1.4/Assemblies</OutputPath>
+		<OutputPath>../1.5/Assemblies</OutputPath>
 		<VersionPrefix>0.1.0.0</VersionPrefix>
 
-		<!-- do not generate pdb file -->
+		<!-- Do not generate pdb file -->
 		<DebugType>none</DebugType>
 
 		<DebugSymbols>false</DebugSymbols>
@@ -26,8 +26,8 @@
 			<Private>False</Private>
 		</Reference>
 
-		<!-- Harmony -->
-		<!-- <Reference Include="../../Harmony/Current/Assemblies/0Harmony.dll">
+		<!-- *Uncomment for Harmony*-->
+		<!-- <Reference Include="C:/Program Files (x86)/Steam/steamapps/workshop/content/294100/2009463077/Current/Assemblies/0Harmony.dll">
 			<Private>False</Private>
 		</Reference> -->
 	</ItemGroup>

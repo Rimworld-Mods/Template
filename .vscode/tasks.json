@@ -2,7 +2,7 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build dll",
+            "label": "BuildWindowsDLL",
             "type": "shell",
             "group": {
                 "kind": "build",
@@ -10,5 +10,14 @@
             },
             "command": ".vscode/build.bat",
         },
+        {
+            "label": "BuildLinuxDLL",
+            "type": "shell",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command": ".vscode/build",
+        }
     ]
 }

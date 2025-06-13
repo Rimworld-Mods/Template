@@ -15,6 +15,9 @@
 
 		<DebugSymbols>false</DebugSymbols>
 		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+
+		<RimWorldPath Condition="'$(RimWorldPath)' == '' AND '$(OS)' == 'Windows_NT'">../../../RimWorldWin64_Data/Managed</RimWorldPath>
+        <RimWorldPath Condition="'$(RimWorldPath)' == '' AND '$(OS)' != 'Windows_NT'">../../../RimWorldLinux_Data/Managed</RimWorldPath>
 	</PropertyGroup>
 
  	<ItemGroup>
@@ -22,12 +25,12 @@
 	 	<Compile Include="../Source/*" />
 		
 	 	<!-- Rimworld -->
-	 	<Reference Include="../../../RimWorldWin64_Data/Managed/*.dll">
+	 	<Reference Include="$(RimWorldPath)/*.dll">
 			<Private>False</Private>
 		</Reference>
 
 		<!-- *Uncomment for Harmony*-->
-		<!-- <Reference Include="C:/Program Files (x86)/Steam/steamapps/workshop/content/294100/2009463077/Current/Assemblies/0Harmony.dll">
+		<!-- <Reference Include="../../../../../../steamapps/workshop/content/294100/2009463077/Current/Assemblies/0Harmony.dll">
 			<Private>False</Private>
 		</Reference> -->
 	</ItemGroup>

@@ -52,13 +52,13 @@ namespace Template
     // *Uncomment for Harmony*
     // [HarmonyPatch(typeof(LetterStack), "ReceiveLetter")]
     // [HarmonyPatch(new Type[] {typeof(TaggedString), typeof(TaggedString), typeof(LetterDef), typeof(string), typeof(int), typeof(bool)})]
-    // public static class LetterTextChange
-    // {
-    //     public static bool Prefix(ref TaggedString text)
-    //     {
-    //         text += new TaggedString(" with harmony");
-    //         return true;
-    //     }
-    // }
+    public static class LetterTextChange
+    {
+        public static bool Prefix(ref TaggedString text)
+        {
+            text += new TaggedString(" with harmony");
+            return true;
+        }
+    }
 
 }

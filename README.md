@@ -26,3 +26,5 @@ This template is created for Rimworld modders who use [Visual Studio Code](https
 * For XML only modders remove preLaunchTask line from `.vscode/launch.json` file.
 * Modify `.vscode/mod.csproj` and `About/About.xml` according to your needs.
  
+Jellypowered made a windows App to improve workflow for anyone who uses this template. 
+You can find it [Prepare New Mod](https://github.com/Jellypowered/PrepareNewMod)

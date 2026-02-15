@@ -1,7 +1,7 @@
 /.vscode/obj
 /*.sln 
+/*/Assemblies/*.pdb
 
 # /*/Assemblies
-# /*/Assemblies/*.pdb
 # /.vscode
 # /Source

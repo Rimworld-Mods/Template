@@ -17,7 +17,7 @@
                 "kind": "build",
                 "isDefault": true
             },
-            "command": ".vscode/build",
+            "command": ".vscode/build.sh",
         }
     ]
 }

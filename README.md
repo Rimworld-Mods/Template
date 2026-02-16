@@ -3,11 +3,8 @@
 This template is created for Rimworld modders who use [Visual Studio Code](https://code.visualstudio.com/) instead of Visual Studio IDE.
 
 * __No virtual folders__. Easy to manage and edit both `xml` and `cs` files.
-
 * __Lightweight__. Visual Studio Code only takes up to 500 MB of storage space and is lighting fast.
-
 * __Automated__. Integrated build, scripting and management tools to perform common tasks making everyday workflows faster.
-
 * __Customizable__. Almost every feature can be changed, whenever it is editor UI, keybinds or folder structure.
 
 ## Setup
@@ -40,4 +37,4 @@ This template is created for Rimworld modders who use [Visual Studio Code](https
 If the Doorstop `debug_suspend` option is enabled, the `Build & Run` action will hang because the process is waiting for a debugger handshake. To resolve this, either attach the debugger manually or use the `Build & Debug` action to automate the connection.
 
 ## Companion Tools
-* __Mod Generator Utility:__ [Jellypowered / Prepare New Mod](https://github.com/Jellypowered/PrepareNewMod).
+* __Mod Generator Utility__ | [Jellypowered / Prepare New Mod](https://github.com/Jellypowered/PrepareNewMod).

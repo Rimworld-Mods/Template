@@ -30,7 +30,7 @@
             "type": "mono",
             "request": "attach",
             "address": "127.0.0.1",
-            "port": 56000, // Changed from 50000 to 56000, to match Windows default
+            "port": 56000,
         },
     ],
     "compounds": [

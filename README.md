@@ -17,7 +17,6 @@ This template is created for Rimworld modders who use [Visual Studio Code](https
 1. Linux `dotnet` setup may vary depending on how you install Rimworld and what distro is being used. Follow [Microsoft's instructions](https://learn.microsoft.com/en-us/dotnet/core/install/linux) to install `dotnet`.
 2. Install [C# extension](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp).
 3. Clone, pull or download this template into your Rimworld `Mods` folder.
-4. Make sure `.vscode/build.sh` is executable with `chmod +x .vscode/build.sh` command.
 
 ## Additional Notes
 * By pressing `F5` key VS Code will perform 2 operations: build assembly file and launch Rimworld executable. 
@@ -37,4 +36,4 @@ This template is created for Rimworld modders who use [Visual Studio Code](https
 If the Doorstop `debug_suspend` option is enabled, the `Build & Run` action will hang because the process is waiting for a debugger handshake. To resolve this, either attach the debugger manually or use the `Build & Debug` action to automate the connection.
 
 ## Companion Tools
-* __Mod Generator Utility__ | [Jellypowered / Prepare New Mod](https://github.com/Jellypowered/PrepareNewMod).
+* __Mod Generator Utility__ | [Jellypowered / Prepare New Mod](https://github.com/Jellypowered/PrepareNewMod)

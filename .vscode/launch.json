@@ -6,7 +6,7 @@
     "configurations": [
         {
             "name": "Build & Run",
-            "type": "node", // VSC doesn't have `shell` type, use built in `node` type instead
+            "type": "node", // VSC doesn't have a `shell` type, use built in `node` type instead
             "request": "launch",
             "cwd": "${workspaceFolder}/../../",
             "console": "internalConsole",
@@ -16,7 +16,6 @@
                 "preLaunchTask": "BuildWindowsDLL",
             },
             "linux": {
-                // Launch shell script instead to check if debugger `run.sh` file exists
                 // https://github.com/pardeike/Rimworld-Doorstop?tab=readme-ov-file#quick-start--linux-with-rider
                 "runtimeExecutable": "sh",
                 "runtimeArgs": [ 
@@ -32,6 +31,15 @@
             "address": "127.0.0.1",
             "port": 56000,
         },
+        {
+            "name": "Build Release", // Potentially a slight performance boost
+            "type": "coreclr",
+            "request": "launch",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/.vscode",
+            "program": "dotnet",
+            "args": ["build", "-c", "Release"],
+        }
     ],
     "compounds": [
         {

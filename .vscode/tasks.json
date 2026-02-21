@@ -9,7 +9,7 @@
                 "isDefault": true
             },
             "command": [
-                "dotnet build .vscode"
+                "dotnet build .vscode -c Debug"
             ],
         },
         {
@@ -20,7 +20,7 @@
                 "isDefault": true
             },
             "command": [
-                "dotnet build .vscode"
+                "dotnet build .vscode -c Debug"
             ],
         }
     ]

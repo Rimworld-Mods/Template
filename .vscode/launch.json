@@ -31,15 +31,6 @@
             "address": "127.0.0.1",
             "port": 56000,
         },
-        {
-            "name": "Build Release", // Potentially a slight performance boost
-            "type": "coreclr",
-            "request": "launch",
-            "console": "integratedTerminal",
-            "cwd": "${workspaceFolder}/.vscode",
-            "program": "dotnet",
-            "args": ["build", "-c", "Release"],
-        }
     ],
     "compounds": [
         {

@@ -6,40 +6,25 @@
     "configurations": [
         {
             "name": "Build & Run",
-            "type": "node", // VSC doesn't have a `shell` type, use built in `node` type instead
+            "type": "coreclr",
             "request": "launch",
+            "program": "${workspaceFolder}/../../RimWorld",
             "cwd": "${workspaceFolder}/../../",
             "console": "internalConsole",
-            "internalConsoleOptions":"neverOpen",
+            "internalConsoleOptions": "neverOpen",
+            "justMyCode": true,
+            "symbolOptions": {
+                "searchPaths": ["${workspaceFolder}/1.7/Assemblies"],
+                "searchMicrosoftSymbolServer": false
+            },
             "windows": {
-                "runtimeExecutable": "${workspaceFolder}/../../RimWorldWin64.exe",
+                "program": "${workspaceFolder}/../../RimWorldWin64.exe",
                 "preLaunchTask": "BuildWindowsDLL",
             },
             "linux": {
-                // https://github.com/pardeike/Rimworld-Doorstop?tab=readme-ov-file#quick-start--linux-with-rider
-                "runtimeExecutable": "sh",
-                "runtimeArgs": [ 
-                    "-c", "if [ -f ./run.sh ]; then ./run.sh; else ./RimWorldLinux; fi"
-                ],
+                "program": "${workspaceFolder}/../../RimWorld",
                 "preLaunchTask": "BuildLinuxDLL",
             }
-        },  
-        {
-            "name": "Attach Debugger",
-            "type": "mono",
-            "request": "attach",
-            "address": "127.0.0.1",
-            "port": 56000,
-        },
-    ],
-    "compounds": [
-        {
-            "name": "Build & Debug",
-            "configurations": [
-                "Build & Run",
-                "Attach Debugger"
-            ],
-            "stopAll": true
         },
     ],
 }

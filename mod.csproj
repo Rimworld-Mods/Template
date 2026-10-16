@@ -1,0 +1,50 @@
+<Project>
+	<PropertyGroup>
+		<BaseIntermediateOutputPath>./.vscode/obj/</BaseIntermediateOutputPath>
+	</PropertyGroup>
+
+	<Import Project="Sdk.props" Sdk="Microsoft.NET.Sdk" />
+
+	<PropertyGroup>
+		<OutputType>Library</OutputType>
+		<TargetFramework>net10.0</TargetFramework>
+		<PlatformTarget>x64</PlatformTarget>
+		<LangVersion>latest</LangVersion>
+
+		<!-- Modify RootNamespace, AssemblyName, OutputPath, VersionPrefix -->
+		<RootNamespace>Template</RootNamespace>
+		<AssemblyName>Template</AssemblyName>
+		<OutputPath>./1.7/Assemblies</OutputPath>
+		<VersionPrefix>0.1.0.0</VersionPrefix>
+
+		<AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+		<GenerateDependencyFile>false</GenerateDependencyFile>
+		<Optimize>true</Optimize>
+		<DebugType>embedded</DebugType>
+		<DebugSymbols>true</DebugSymbols>
+		<EnableDefaultCompileItems>false</EnableDefaultCompileItems>
+	</PropertyGroup>
+
+ 	<ItemGroup>
+	 	<Compile Include="./Source/*" />
+		<!-- Krafs.Rimworld.Ref is not updated -->
+		<!-- <PackageReference Include="Krafs.Rimworld.Ref" Version="*" /> -->
+		<Reference Include="Assembly-CSharp">
+			<HintPath>./../../Assembly-CSharp.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="UnityStubs">
+			<HintPath>./../../UnityStubs.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+		<Reference Include="Waylith">
+			<HintPath>./../../Waylith.dll</HintPath>
+			<Private>False</Private>
+		</Reference>
+
+		<!-- *Uncomment for Harmony* -->
+		<!-- <PackageReference Include="Lib.Harmony" Version="*" /> -->
+	</ItemGroup>
+
+	<Import Project="Sdk.targets" Sdk="Microsoft.NET.Sdk" />
+</Project>

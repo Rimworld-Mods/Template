@@ -1,6 +1,5 @@
 {
     "recommendations": [
-        "ms-dotnettools.csharp",
-        "ms-vscode.mono-debug"
+        "ms-dotnettools.csharp"
     ]
 }

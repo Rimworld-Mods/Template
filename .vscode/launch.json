@@ -18,7 +18,7 @@
                 "searchMicrosoftSymbolServer": false
             },
             "windows": {
-                "program": "${workspaceFolder}/../../RimWorldWin64.exe",
+                "program": "${workspaceFolder}/../../RimWorld.exe",
                 "preLaunchTask": "BuildWindowsDLL",
             },
             "linux": {
